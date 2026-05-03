@@ -1,4 +1,4 @@
-module github.com/plexusone/omnivault-keyring
+module github.com/plexusone/omni-keyring
 
 go 1.25.5
 

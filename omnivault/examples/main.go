@@ -1,4 +1,4 @@
-// Example usage of omnivault-keyring
+// Example usage of omni-keyring/omnivault
 package main
 
 import (
@@ -9,7 +9,7 @@ import (
 	"github.com/plexusone/omnivault"
 	"github.com/plexusone/omnivault/vault"
 
-	keyring "github.com/plexusone/omnivault-keyring"
+	keyring "github.com/plexusone/omni-keyring/omnivault"
 )
 
 func main() {
