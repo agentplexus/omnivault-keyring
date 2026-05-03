@@ -1,10 +1,34 @@
 {
   "irVersion": "1.0",
-  "project": "omnivault-keyring",
-  "repository": "https://github.com/plexusone/omnivault-keyring",
+  "project": "omni-keyring",
+  "repository": "https://github.com/plexusone/omni-keyring",
   "versioning": "semver",
   "commitConvention": "conventional",
   "releases": [
+    {
+      "version": "v0.3.0",
+      "date": "2026-05-03",
+      "highlights": [
+        { "description": "Renamed to `omni-keyring` following the omni-<provider> pattern" },
+        { "description": "Restructured as monorepo with `omnivault/` subdirectory" }
+      ],
+      "breaking": [
+        { "description": "Module path changed from `github.com/plexusone/omnivault-keyring` to `github.com/plexusone/omni-keyring`" },
+        { "description": "Import path changed to `github.com/plexusone/omni-keyring/omnivault`" }
+      ],
+      "upgradeGuide": [
+        { "description": "Update import paths from `github.com/plexusone/omnivault-keyring` to `github.com/plexusone/omni-keyring/omnivault`" },
+        { "description": "Run `go get github.com/plexusone/omni-keyring/omnivault@v0.3.0`" }
+      ],
+      "changed": [
+        { "description": "Provider code moved to `omnivault/` subdirectory" },
+        { "description": "Examples moved to `omnivault/examples/`" }
+      ],
+      "documentation": [
+        { "description": "Add root README.md following omni-aws pattern" },
+        { "description": "Update omnivault/README.md with new import paths and related projects" }
+      ]
+    },
     {
       "version": "v0.2.0",
       "date": "2026-03-01",
