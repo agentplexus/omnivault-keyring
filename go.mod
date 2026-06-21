@@ -10,6 +10,6 @@ require (
 require (
 	github.com/danieljoos/wincred v1.2.3 // indirect
 	github.com/godbus/dbus/v5 v5.2.2 // indirect
-	github.com/grokify/oscompat v0.3.0 // indirect
-	golang.org/x/sys v0.45.0 // indirect
+	github.com/grokify/oscompat v0.4.0 // indirect
+	golang.org/x/sys v0.46.0 // indirect
 )
